@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/media-query.css">
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="top-header">
+            <div class="header-left">
+                <span class="three-bars-container">
+                    <div type="button" class="btn-three-bar">
+                        <a class="three-bar-text">
+                            <img src="./images/icons/hamburger-menu.svg" alt="">
+                        </a>
+                    </div>
+                </span>
+                <img src="./images/logos/youtube-logo.jpg" alt="" class="logo">
+            </div>
+            <div class="header-middle">
+                <form action="" class="search-bar">
+                    <div class="form-group">
+                        <input type="text" name="search" class="form-input" placeholder="search">
+                        <button type="button" class="btn-search btn" title="search">
+                            <img src="./images/icons/search-icon.png" alt="">
+                        </button>
+                    </div>
+                </form>
+                <div class="speak-icon-container">
+                    <img src="./images/icons/microphone-icon.jpg" alt="speak icon" class="speak-icon" title="speak">
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-right-container">
+                    <div class="icon-wrapper">
+                        <img src="./images/icons/create.webp" alt="create icon" class="create-icon" title="create"
+                            srcset="">
+                    </div>
+                    <div class="icon-wrapper">
+                        <img src="./images/icons/notification.png" alt="notification icon" class="notification-icon"
+                            title="notifications" srcset="">
+                    </div>
+                    <div class="">
+                        <img src="./images/icons/user.png" alt="user icon" class="user-icon" title="user profile"
+                            srcset="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="sidebar">
+            <div class="sidebar-menu-list menu-list-small">
+                <img src="./images/icons/home.png" alt="home" class="sidebar-menu-list-icons">
+                Home
+            </div>
+            <div class="sidebar-menu-list menu-list-small">
+                <img src="./images/icons/shorts.png" alt="home" class="sidebar-menu-list-icons short-icon">
+                Shorts
+            </div>
+            <div class="sidebar-menu-list menu-list-small">
+                <img src="./images/icons/subscriptions.svg" alt="home" class="sidebar-menu-list-icons short-icon">
+                Subscriptions
+            </div>
+            <div class="hide-on-small">
+            <hr>
+            <h3 class="sidebar-menu-list-title">You</h3>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/live.webp" alt="user icon" class="sidebar-menu-list-icons" srcset="">
+                    History
+            </div>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/user.png" alt="user icon" class="sidebar-menu-list-icons" srcset="">
+                    Playlist
+            </div>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/user.png" alt="user icon" class="sidebar-menu-list-icons" srcset="">
+                    Watch later
+            </div>
+            <hr>
+            <h3 class="sidebar-menu-list-title">Explore</h3>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/subscriptions.png" alt="home" title="trending"
+                    class="sidebar-menu-list-icons">
+                Trending
+            </div>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/music.png" alt="music" title="music" class="sidebar-menu-list-icons">
+                Music
+            </div>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/movie&tv.jpeg" alt="movies and tv" title="movies and tv"
+                    class="sidebar-menu-list-icons">
+                Movies & TV
+            </div>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/live.webp" alt="live streaming" title="live streaming"
+                    class="sidebar-menu-list-icons">
+                Live
+            </div>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/gaming.jpg" alt="gaming" title="gaming" class="sidebar-menu-list-icons">
+                Gaming
+            </div>
+            <hr>
+            <h3 class="sidebar-menu-list-title">More from YouTube</h3>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/youtube-music.png" alt="gaming" title="gaming" class="sidebar-menu-list-icons">
+                Youtube Music
+            </div>
+            <div class="sidebar-menu-list">
+                <img src="./images/icons/youtube-kids.png" alt="gaming" title="gaming" class="sidebar-menu-list-icons">
+                Youtube Kids
+            </div>
+            <hr>
+            <div class="border-top">
+                <div class="sidebar-menu-list">
+                    <img src="./images/icons/settings.png" alt="home" class="sidebar-menu-list-icons">
+                    Settings
+                </div>
+                <div class="sidebar-menu-list">
+                    <img src="./images/icons/report-history.png" alt="home" class="sidebar-menu-list-icons">
+                    Report
+                </div>
+                <div class="sidebar-menu-list">
+                    <img src="./images/icons/help.png" alt="home" class="sidebar-menu-list-icons">
+                    Help
+                </div>
+                <div class="sidebar-menu-list">
+                    <img src="./images/icons/feedback.png" alt="home" class="sidebar-menu-list-icons">
+                    Send feedback
+                </div>
+            </div>
+            <footer>
+                <div class="footer-wrapper">
+                    <a href="#" class="footer-links">About</a>
+                    <a href="#" class="footer-links">Press</a>
+                    <a href="#" class="footer-links">Copyright</a>
+                    <a href="#" class="footer-links">Contact us</a>
+                    <a href="#" class="footer-links">Creators</a>
+                    <a href="#" class="footer-links">Advertise</a>
+                    <a href="#" class="footer-links">Developers</a>
+                    <a href="#" class="footer-links">Impressum</a>
+                    <a href="#" class="footer-links">Cancel Memberships</a>
+                    <div class="bottom-footer-wrapper">
+                        <a href="#" class="footer-links">Terms</a>
+                        <a href="#" class="footer-links">Privacy</a>
+                        <a href="#" class="footer-links">Policy & Safety</a>
+                        <a href="#" class="footer-links">Contact us</a>
+                    </div>
+                </div>
+            </footer>
+            </div>
+        </div>
+        <main>
+            <div class="main-right">
+                <div class="tags-wrapper">
+                    <div class="tags-text active">
+                        <a href="" class="">All</a>
+                    </div>
+                    <div class="tags-text">
+                        <a href="">Music</a>
+                    </div>
+                    <div class="tags-text">
+                        <a href="">Skills</a>
+                    </div>
+                    <div class="tags-text">
+                        <a href="">Movies</a>
+                    </div>
+                    <div class="tags-text">
+                        <a href="">Gaming</a>
+                    </div>
+                    <div class="tags-text">
+                        <a href="">Podcasts</a>
+                    </div>
+                    <div class="tags-text">
+                        <a href="">Live</a>
+                    </div>
+                </div>
+                <div class="right-wrapper">
+                    <div class="video-details">
+                        <img src="./images/video-images/mediation-music.jpg" alt="meditation music" class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-1.png" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">Relaxing Music for Stress Relief, Calm, Study | Beautiful Nature
+                                    & Water Sounds</h3>
+                                <a href="" title="meditation world">meditation world</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">8M views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">1 year ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/mr-beast.webp" alt="meditation music" class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-2.jpeg" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">Who is Mr.Beast? Let's find out</h3>
+                                <a href="" title="info world">Info world</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">12k views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">1 year ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/speaking-practice.jpg" alt="meditation music" class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-4.jpg" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">50 english conversation practice</h3>
+                                <a href="" title="Learn english with me">Learn english with me</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">20M views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">1.5 years ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/practice-english-speaking.jpeg" alt="meditation music"
+                            class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-3.jpg" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">How to practice english speaking</h3>
+                                <a href="" title="english learner">english learner</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">20M views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">1 day ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/most-popular-songs.jpeg" alt="meditation music"
+                            class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-1.png" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">Most popular english songs| From 60' to present</h3>
+                                <a href="" title="song collection">song collection</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">20M views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">1 month ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/tinker-bell.jpeg" alt="meditation music" class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-2.jpeg" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">Tinkerbell Secret Of the Wings | Full Moive in English</h3>
+                                <a href="" title="Disney Cartoon">Disney Cartoon</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">2M views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">11 years ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/epic.jpg" alt="meditation music" class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-4.jpg" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">Epic Animated Moive English - with multiple subtitle</h3>
+                                <a href="" title="Animation lover">Animation lover</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">6M views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">5 days ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/sci-fi-1.jpeg" alt="meditation music" class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-3.jpg" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">Watch the best Sci-fi movie for free</h3>
+                                <a href="" title="sci-fi lover">Sci-fi lover</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">199k views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">1 year ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-details">
+                        <img src="./images/video-images/action-sci-fi.jpeg" alt="meditation music" class="img-video">
+                        <div class="video-info">
+                            <img src="./images/users-profile-pic/user-4.jpg" alt="user 1" title="user 1"
+                                class="user-img-video">
+                            <div class="description">
+                                <h3 class="video-title">Top 10 best action &amp; sci-fi movies to watch on 2024</h3>
+                                <a href="" title="movie lover">Movie lover</a>
+                                <p>
+                                    <a href="" class="video-view-text" title="views">20M views </a>
+                                    <span class="dot">&#8226;</span>
+                                    <a href="" class="video-added-text" title="date">1.5 years ago</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    <!-- scripts -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
